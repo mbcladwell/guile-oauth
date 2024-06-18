@@ -1,0 +1,10 @@
+./examples/oauth2/reddit.scm:103:  (let ((params (oauth-parse-www-form-urlencoded (utf8->string body))))
+./examples/oauth2/reddit.scm:185:      (let ((feed (reddit-feed-from-json (utf8->string body))))
+./examples/oauth1/twitter.scm:109:  (let ((params (oauth-parse-www-form-urlencoded (utf8->string body))))
+./.git/hooks/fsmonitor-watchman.sample:74:	return $json_pkg->new->utf8->decode($response);
+./.git/hooks/fsmonitor-watchman.sample:119:	return $json_pkg->new->utf8->decode($response);
+./.git/hooks/fsmonitor-watchman.sample:130:		$output = $json_pkg->new->utf8->decode($response);
+./oauth/oauth2/response.scm:34:  (let ((str-body (if (string? body) body (utf8->string body))))
+./oauth/oauth2/client.scm:191:      (values response (if (string? body) body (utf8->string body))))))
+./oauth/oauth1/response.scm:53:  (let ((str-body (if (string? body) body (utf8->string body))))
+./oauth/oauth1/client.scm:152:      (values response (if (string? resp-body) resp-body (utf8->string resp-body))))))
